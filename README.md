@@ -1,49 +1,49 @@
-### 🏛️ Roman Numeral Converter (Java)
+# 🏛️ Roman Numeral Converter (Java)
 
-# A simple and reliable Roman numeral to integer converter implemented in Java, featuring full JUnit 5 test coverage.
+### A simple and reliable Roman numeral to integer converter implemented in Java, featuring full JUnit 5 test coverage.
 
 ## ✅ Features
 
-# Converts Roman numerals to integers
+### Converts Roman numerals to integers
 
-# Supports subtractive notation (IV, IX, XL, etc.)
+### Supports subtractive notation (IV, IX, XL, etc.)
 
-# Validates input for:
+### Validates input for:
 
-# Invalid characters
+### Invalid characters
 
-# Invalid repetition (VV, LL, DD)
+### Invalid repetition (VV, LL, DD)
 
-# Invalid subtractive pairs (IL, IC, XM, etc.)
+### Invalid subtractive pairs (IL, IC, XM, etc.)
 
-# Includes comprehensive JUnit test cases
+### Includes comprehensive JUnit test cases
 
-# Maven project structure for easy building and testing
+### Maven project structure for easy building and testing
 
 ## 📁 Project Structure
-# src/
-# ├─ main/java/com/example/RomanNumeral.java
-# └─ test/java/com/example/RomanNumeralTest.java
-# pom.xml
+### src/
+### ├─ main/java/com/example/RomanNumeral.java
+### └─ test/java/com/example/RomanNumeralTest.java
+### pom.xml
 
 ## 🧪 Running Tests
 
-# To run all JUnit tests:
+### To run all JUnit tests:
 
-# mvn test
+### mvn test
 
 ## 🚀 How It Works
 
-# The converter uses:
+### The converter uses:
 
-# A HashMap<Character, Integer> for Roman numeral values
+### A HashMap<Character, Integer> for Roman numeral values
 
-# A left-to-right scan to detect subtractive notation
+### A left-to-right scan to detect subtractive notation
 
 
 
 ## 📌 Requirements
 
-# Java 8+
+### Java 8+
 
-# Maven 3+
+### Maven 3+
